@@ -1,14 +1,11 @@
-# K-pop Collaboration Shorts Dataset
-
-Positive samples for the K-pop short-form challenge collaboration study: every
-YouTube Shorts dance challenge in which a main artist appears with a guest artist,
-uploaded between 2022-01-01 and 2024-10-29.
+# Artist-to-Artist challenge collaboration Shorts Dataset
 
 File: `data/dataset.csv`
 
 | | |
 |---|---|
 | Rows | 6,008 directed collaboration ties (main artist → guest artist in one Short) |
+| Date Range | 2022-01-01 to 2024-10-29 |
 | Artists | 207 (186 main, 206 guest) |
 | Songs | 597 |
 | Columns | 35 (3 identifiers + 32 model features) |
