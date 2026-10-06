@@ -11,7 +11,6 @@ File: `data/final_collab_shorts_positives.csv`
 | Rows | 6,008 directed collaboration ties (main artist → guest artist in one Short) |
 | Artists | 207 (186 main, 206 guest) |
 | Songs | 597 |
-| First-time / recurring | 4,521 / 1,487 |
 | Columns | 35 (3 identifiers + 32 model features) |
 
 ## Model features (32), by category
