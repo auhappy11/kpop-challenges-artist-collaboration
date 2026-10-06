@@ -4,7 +4,7 @@ Positive samples for the K-pop short-form challenge collaboration study: every
 YouTube Shorts dance challenge in which a main artist appears with a guest artist,
 uploaded between 2022-01-01 and 2024-10-29.
 
-File: `data/final_collab_shorts_positives.csv`
+File: `data/dataset.csv`
 
 | | |
 |---|---|
