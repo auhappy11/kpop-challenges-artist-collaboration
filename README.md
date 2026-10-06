@@ -4,9 +4,9 @@ File: `data/dataset.csv`
 
 | | |
 |---|---|
-| Rows | 6,008 directed collaboration ties (main artist → guest artist in one Short) |
+| Rows | 6,008 directed collaboration ties (original artist → guest artist in one Short) |
 | Date Range | 2022-01-01 to 2024-10-29 |
-| Artists | 207 (186 main, 206 guest) |
+| Artists | 207 (186 original, 206 guest) |
 | Songs | 597 |
 | Columns | 35 (3 identifiers + 32 model features) |
 
