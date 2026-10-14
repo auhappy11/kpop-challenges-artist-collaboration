@@ -23,25 +23,25 @@ TRAIN_FRACTION = 0.8                         # chronological split
 
 # Model features (31), in the order used by the models -----------------------
 FEATURES = [
-    # MS - music similarity
+    # MS - Music Similarity
     "music_similarity",
-    # OAS - original artist song audio
+    # OAS - Original Artist Song
     "main_bpm", "main_energy", "main_danceability", "main_happiness",
     "main_acousticness", "main_instrumentalness", "main_liveness",
     "main_speechiness", "main_loudness",
-    # GAS - guest artist song audio
+    # GAS - Guest Artist Song
     "collab_bpm", "collab_energy", "collab_danceability", "collab_happiness",
     "collab_acousticness", "collab_instrumentalness", "collab_liveness",
     "collab_speechiness", "collab_loudness",
-    # SP - social / relational
+    # SP - Social Proximity
     "same_gender", "same_agency", "past_engagement", "past_engagement_raw",
     "debut_date_difference",
-    # TP - title-track promotion
+    # TP - Temporal Proximity
     "has_recent_title_track",
-    # SP - social / relational (cultural)
+    # SP - Social Proximity (cultural)
     "main_korean_member_ratio", "collab_korean_member_ratio",
     "shared_non_korean_nationality",
-    # P - popularity
+    # P - Popularity
     "avg_past_album_sales_main", "avg_past_album_sales_collab",
     "ratio_avg_album_sales",
 ]
